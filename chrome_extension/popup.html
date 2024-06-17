@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level DB Storage</title>
+    <style>
+        body {
+            width: 400px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        input[type="text"] {
+            margin: 5px;
+            padding: 5px;
+        }
+        button {
+            margin: 5px;
+            padding: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<h1>Store a new Key / Value pair</h1>
+<form id="kv-form">
+    <input type="text" id="key" placeholder="Key" required>
+    <input type="text" id="value" placeholder="Value" required>
+    <button type="submit">Add</button>
+</form>
+<ul id="kv-list"></ul>
+<script src="popup.js"></script>
+</body>
+</html>

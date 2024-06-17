@@ -1,0 +1,12 @@
+{
+  "name": "blockmesh_hack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node hack.js"
+  },
+  "dependencies": {
+    "level": "^8.0.1"
+  }
+}
